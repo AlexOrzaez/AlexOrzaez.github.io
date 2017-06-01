@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+#caja {
+    background-color: deepskyblue;
+    display: flex;
+}
+#menu {
+    height: 1000px;
+    width: 225px;
+    background-color: gray;
+}
+#cuadricula {
+    justify-content:space-around; 
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.cuadradito {
+    text-align: center;
+    background-color: red;
+    width: 45%;
+    height: 400px;
+    border: solid black 2px;
+}
+.foto:hover {
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    z-index: 1;
+    
+}
