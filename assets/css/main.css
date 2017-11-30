@@ -101,7 +101,7 @@
 			position: fixed;
 			top: 0;
 			left: 0;
-			width: 100%;
+			width: 50%;
 			height: inherit;
 			opacity: 0;
 			z-index: 1;
@@ -132,7 +132,7 @@
 		font-weight: 300;
 		line-height: 2;
 		letter-spacing: 0.2em;
-		text-transform: uppercase;
+		text-transform: uppercase; 
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -702,7 +702,7 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
+		max-width:50%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
